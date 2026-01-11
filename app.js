@@ -1,3 +1,6 @@
+// dotenvを最初に読み込む（環境変数を設定）
+require('dotenv').config();
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
